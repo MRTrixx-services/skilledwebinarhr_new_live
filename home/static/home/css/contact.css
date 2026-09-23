@@ -367,6 +367,17 @@ a.ct-info-value:hover { color: #6e3482; }
     text-transform: uppercase;
 }
 
+.ct-phone-link {
+    display: inline-block;
+    margin-top: 8px;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.ct-phone-link:hover {
+    opacity: 0.8;
+}
+
 .ct-cta-content h3 {
     margin: 0 0 3px;
     color: #1e0d28;

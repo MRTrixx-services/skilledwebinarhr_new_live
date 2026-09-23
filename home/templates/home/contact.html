@@ -91,10 +91,15 @@
               Email Us
             </span>
 
-            <a href="mailto:cs@skilledWebinars.com"
+            <a href="mailto:contact@skilledWebinars.com"
                class="ct-info-value">
-              support@skilledWebinars.com
+              contact@skilledWebinars.com
             </a>
+
+            <a href="tel:+18066028491"
+       class="ct-info-value ct-phone-link">
+        +1 (806)-602-8491
+    </a>
 
             <span class="ct-info-note">
               General inquiries and customer support
@@ -679,21 +684,3 @@
 {% endblock %}
 
 
-{% block extra_js %}
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-    const encoded =
-    "ODUwNiBNYWRpc29uIEF2ZSw8YnI+U3VpdGUgQTxicj5GYWlyIE9ha3MsIENBIDk1NjI4LDxicj5Vbml0ZWQgU3RhdGVz";
-
-    const officeAddress = document.getElementById("office-address");
-
-    if (officeAddress) {
-        officeAddress.innerHTML = atob(encoded);
-    }
-
-});
-</script>
-
-{% endblock %}
